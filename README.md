@@ -9,13 +9,15 @@ Non-Coding Rna Structural and Functional Ontology
 
 ### Stable release versions
 
-The latest version of the ontology can always be found at:
-
-http://purl.obolibrary.org/obo/ncro/nsfo.owl
+There has not yet been a stable release. 
 
 ### Editors' version
 
-Editors of this ontology should use the edit version, [src/ontology/nsfo-edit.owl](src/ontology/nsfo-edit.owl)
+The editors version of the ontology is available at
+
+http://purl.obolibrary.org/obo/ncro/nsfo.owl
+
+Source is in [src/ontology/nsfo.owl](src/ontology/nsfo.owl)
 
 ## Contact
 Please use this GitHub repository's [Issue tracker](https://github.com/alanruttenberg/nsfo/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
