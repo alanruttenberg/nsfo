@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ncro/nsfo/ncro-imports.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ncro/nsfo/ncro-imports.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ncro/nsfo/ncro-imports.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17843 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17843"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33697"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_74035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74035"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_8762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8762">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004000"/>
+        <obo:IAO_0000118>RNA(circular)</obo:IAO_0000118>
+        <obo:IAO_0000118>circRNA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label>RNA(circular)</rdfs:label>
+        <rdfs:seeAlso>KEGG COMPOUND:C02073</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCRO_0004000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
+        <obo:IAO_0000115>A non-coding RNA (ncRNA) is an RNA molecule that is not translated into a protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000118>ncRNA</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB:https://en.wikipedia.org/w/index.php?title=Non-coding_RNA&amp;oldid=688555892#Non-coding RNA</obo:IAO_0000119>
+        <rdfs:label>non-coding RNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCRO_0004001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004000"/>
+        <rdfs:label>miRNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCRO_0004002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004003"/>
+        <obo:IAO_0000115>A genetic non-coding RNA is a non-coding RNA that is created by transcription in a cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000232>TODO: Add axiom linking GO transcription</obo:IAO_0000232>
+        <rdfs:label>genetic non-coding RNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCRO_0004003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004000"/>
+        <obo:IAO_0000117>Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117>a RNA that is manufactured in a planned process</obo:IAO_0000117>
+        <obo:IAO_0000232>TODO: Add axiom relating to OBI planned process and anything else from OBI that is relevant</obo:IAO_0000232>
+        <rdfs:label>synthesized non-coding RNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCRO_0004004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004000"/>
+        <obo:IAO_0000115>Long non-coding RNAs (long ncRNAs, lncRNA) are non-protein coding transcripts longer than 200 nucleotides.</obo:IAO_0000115>
+        <obo:IAO_0000116>This somewhat arbitrary limit distinguishes long ncRNAs from small regulatory RNAs such as microRNAs (miRNAs), short interfering RNAs (siRNAs), Piwi-interacting RNAs (piRNAs), small nucleolar RNAs (snoRNAs), and other short RNAs</obo:IAO_0000116>
+        <obo:IAO_0000117>Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000118>lncRNA</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB:https://en.wikipedia.org/w/index.php?title=Long_non-coding_RNA&amp;oldid=687562040#Long non-coding RNA</obo:IAO_0000119>
+        <obo:IAO_0000232>Should requested and then imported from ChEBI</obo:IAO_0000232>
+        <rdfs:label>long non-coding RNA</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://sourceforge.net/p/chebi/curator-requests/2494/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCRO_0004005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCRO_0004005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004000"/>
+        <obo:IAO_0000115>small interfering RNA (siRNA) is a class of double-stranded RNA molecules, 20-25 base pairs in length. siRNA plays many roles, but it is most notable in the RNA interference (RNAi) pathway, where it interferes with thes expression of specific genes with complementary nucleotide sequences.</obo:IAO_0000115>
+        <obo:IAO_0000117>Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000118>siRNA</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB:https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&amp;page=Small_interfering_RNA&amp;id=685334024#Small_interfering_RNA</obo:IAO_0000119>
+        <obo:IAO_0000232>Should requested and then imported from ChEBI</obo:IAO_0000232>
+        <rdfs:label>small interfering RNA</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://sourceforge.net/p/chebi/curator-requests/2494/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+        <obo:IAO_0000115>A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.</obo:IAO_0000115>
+        <obo:IAO_0000118>sequence</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <rdfs:label>region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000115>Any extent of continuous biological sequence.</obo:IAO_0000115>
+        <obo:IAO_0000118>located_sequence_feature</obo:IAO_0000118>
+        <obo:IAO_0000118>sequence feature</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <rdfs:label>sequence_feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCRO_0004002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A transcript which has undergone the necessary modifications, if any, for its function. In eukaryotes this includes, for example, processing of introns, cleavage, base modification, and modifications to the 5&apos; and/or the 3&apos; ends, other than addition of bases. In bacteria functional mRNAs are usually not modified.</obo:IAO_0000115>
+        <obo:IAO_0000118>mature transcript</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <rdfs:label>mature_transcript</rdfs:label>
+        <rdfs:seeAlso>http://en.wikipedia.org/wiki/Mature_transcript</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000370"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000370"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0000647) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors.</obo:IAO_0000115>
+        <obo:IAO_0000118>micro RNA</obo:IAO_0000118>
+        <obo:IAO_0000118>microRNA</obo:IAO_0000118>
+        <obo:IAO_0000118>small temporal RNA</obo:IAO_0000118>
+        <obo:IAO_0000118>stRNA</obo:IAO_0000118>
+        <obo:IAO_0000232>Removed axiom &apos;derives_from some miRNA_primary_transcript&apos; pending review of status of SO terms. Changed relation of small regulatory ncRNA (superclass) into is about relationship</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <rdfs:label>miRNA feature</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://sourceforge.net/p/chebi/curator-requests/2494/"/>
+        <rdfs:seeAlso>http://en.wikipedia.org/wiki/MiRNA</rdfs:seeAlso>
+        <rdfs:seeAlso>http://en.wikipedia.org/wiki/StRNA</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <obo:IAO_0000115>A non-coding RNA, usually with a specific secondary structure, that acts to regulate gene expression.</obo:IAO_0000115>
+        <obo:IAO_0000118>small regulatory ncRNA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <rdfs:label>small_regulatory_ncRNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000233"/>
+        <obo:IAO_0000115>An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product.</obo:IAO_0000115>
+        <obo:IAO_0000118>noncoding RNA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <rdfs:label>ncRNA feature</rdfs:label>
+        <rdfs:seeAlso>http://en.wikipedia.org/wiki/NcRNA</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000673">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000831"/>
+        <obo:IAO_0000115>An RNA synthesized on a DNA or RNA template by an RNA polymerase.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <rdfs:label>transcript</rdfs:label>
+        <rdfs:seeAlso>http://en.wikipedia.org/wiki/RNA</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000831 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000831">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A region of a gene.</obo:IAO_0000115>
+        <obo:IAO_0000118>gene member region</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <rdfs:label>gene_member_region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
+        <obo:IAO_0000115>A region defined by its disposition to be involved in a biological process.</obo:IAO_0000115>
+        <obo:IAO_0000118>biological region</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <rdfs:label>biological_region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
+        <rdfs:label>is about</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17843"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18111"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_74035"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_8762"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCRO_0004001"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCRO_0004004"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCRO_0004005"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
