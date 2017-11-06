@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group  prefer="public" xml:base="">
+        <uri name="http://purl.obolibrary.org/obo/ncro/nsfo/doid-imports.owl" uri="doid-imports.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/ncro/nsfo/ncro-imports.owl" uri="ncro-imports.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/ncro/nsfo/cl-imports.owl" uri="cl-imports.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/ncro/nsfo/chebi-imports.owl" uri="chebi-imports.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/nsfo.owl" uri="nsfo.owl"/>
+    </group>
+</catalog>

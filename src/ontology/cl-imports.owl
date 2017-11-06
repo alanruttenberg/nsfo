@@ -1,0 +1,393 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ncro/nsfo/cl-imports.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ncro/nsfo/cl-imports.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ncro/nsfo/cl-imports.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">see also</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2000/01/rdf-schema#seeAlso</rdfs:seeAlso>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</rdfs:label>
+        <rdfs:label xml:lang="en">cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-2035</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:68646</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005623</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KUPO:0000002</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001533</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBbt:0004017</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0003012</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000082">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial cell of lung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004299</rdfs:seeAlso>
+        <obo:IAO_0000118>lung epithelial cell</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000322">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pneumocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0010003"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An epithelial cell that lines the peripheral gas exchange region of the lungs of air-breathing vertebrates.</obo:IAO_0000115>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000395</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-2168</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:62499</rdfs:seeAlso>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alveolar epithelial cell</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pneumonocyte</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002062">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type I pneumocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000322"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type I pneumocyte is a flattened, branched pneumocyte that covers more than 98% of the alveolar surface. This large cell has thin (50-100 nm) cytoplasmic extensions to form the air-blood barrier essential for normal gas exchange.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT1</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATI</obo:IAO_0000118>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000780</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:62500</rdfs:seeAlso>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung type 1 cells</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membranous pneumocytes</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pulmonary alveolar type I cell</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small alveolar cells</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">squamous alveolar cell</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">squamous alveolar lining cell</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type 1 alveolar epithelial cells</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type 1 pneumocyte</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type I alveolar cells</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type I alveolar epithelial cells</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002063">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type II pneumocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000272"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type II pneumocyte is a pneumocyte that modulates the fluid surrounding the alveolar epithelium by secreting and recycling surfactants. This cell type also contributes to tissue repair and can differentiate after injury into a type I pneumocyte. Thicker than squamous alveolar cells, have a rounded apical surface that projects above the level of surrounding epithelium. The free surface is covered by short microvilli.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT2</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATII</obo:IAO_0000118>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000538</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:62501</rdfs:seeAlso>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TII</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cuboidal type II cell</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granular pneumocyte</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">great alveolar cell</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung type 2 cell</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type 2 alveolar epithelial cell</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type 2 alveolocyte</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type 2 pneumocyte</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type II alveolar cell</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type II alveolar epithelial cell</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type II alveolocyte</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002205">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brush cell of lobular bronchiole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000082"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brush cell found in the epithelium of lobular bronchiole.</obo:IAO_0000115>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:263220</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002206">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brush cell of terminal bronchiole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002205"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brush cell of the epithelium in the terminal bronchiole.</obo:IAO_0000115>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:263228</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002553">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroblast of lung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fibroblast that is part of lung.</obo:IAO_0000115>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000764</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0575</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002638">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchioalveolar stem cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000350"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A respiratory stem cell found at the junction of the terminal (conductive) bronchiole and the respiratory bronchiole. This cell types gives rise to alveolar cell types and Clara cells in response to lung injury. This cell type expresses markers Scgb1a1 and Sftpc.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BASC</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal epithelial cell of bronchioalveolar duct junction</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0010003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0010003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial cell of alveolus of lung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000082"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a epithelial cell that is part_of a alveolus of lung</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alveolus of lung epithelial cell</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000143">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung goblet cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000272"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000223">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung neuroendocrine cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000272"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000271">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung ciliated cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000272">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung secretory cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000332">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serous cell of epithelium of terminal bronchiole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000333"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A serous secreting cell that is part of the epithelium of terminal bronchiole.</obo:IAO_0000115>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:263082</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000333">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serous cell of epithelium of lobular bronchiole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000272"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A serous secreting cell that is part of the epithelium of bronchiole.</obo:IAO_0000115>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:263084</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000350">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal cell of epithelium of terminal bronchiole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000352"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A basal cell that is part of the epithelium of terminal bronchiole.</obo:IAO_0000115>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:263122</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000351">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal cell of epithelium of respiratory bronchiole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000352"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A basal cell that is part of the epithelium of respiratory bronchiole.</obo:IAO_0000115>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:263124</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000352">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal cell of epithelium of lobular bronchiole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000082"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A basal cell that is part of the epithelium of bronchiole.</obo:IAO_0000115>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:263126</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000493">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesothelial cell of visceral pleura</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000082"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mesothelial cell that is part of the visceral pleura.</obo:IAO_0000115>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:86739</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1001566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001566">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchioalveolar stem cells</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a respiratory stem cell found at the junction of the terminal (conductive) bronchiole and the respiratory bronchiole, which gives rise to alveolar cell types and Clara cells in response to lung injury.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1001567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001567">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung endothelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000082"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1001603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001603">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung macrophage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0576</rdfs:seeAlso>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circulating macrophages and tissue macrophages (alveolar macrophages) of lung.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_2000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000016">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung microvascular endothelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001567"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any lung endothelial cell that is part of a microvascular endothelium.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_2000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000093">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchus fibroblast of lung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002553"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any fibroblast of lung that is part of a bronchus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
